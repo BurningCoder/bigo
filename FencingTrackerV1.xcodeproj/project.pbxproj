@@ -10,7 +10,6 @@
 		10DA20F023D5EBFB003B8A08 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA20EF23D5EBFB003B8A08 /* SearchViewController.swift */; };
 		10DA20F223D60179003B8A08 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA20F123D60179003B8A08 /* TableViewCell.swift */; };
 		10FE1B1E23D34A4E0028C862 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE1B1D23D34A4E0028C862 /* AppDelegate.swift */; };
-		10FE1B2023D34A4E0028C862 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE1B1F23D34A4E0028C862 /* SceneDelegate.swift */; };
 		10FE1B2223D34A4E0028C862 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE1B2123D34A4E0028C862 /* ViewController.swift */; };
 		10FE1B2523D34A4E0028C862 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10FE1B2323D34A4E0028C862 /* Main.storyboard */; };
 		10FE1B2723D34A510028C862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10FE1B2623D34A510028C862 /* Assets.xcassets */; };
@@ -24,7 +23,6 @@
 		10DA20F123D60179003B8A08 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		10FE1B1A23D34A4E0028C862 /* FencingTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FencingTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10FE1B1D23D34A4E0028C862 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		10FE1B1F23D34A4E0028C862 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		10FE1B2123D34A4E0028C862 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		10FE1B2423D34A4E0028C862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10FE1B2623D34A510028C862 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -70,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				10FE1B1D23D34A4E0028C862 /* AppDelegate.swift */,
-				10FE1B1F23D34A4E0028C862 /* SceneDelegate.swift */,
 				10FE1B2123D34A4E0028C862 /* ViewController.swift */,
 				10FE1B2323D34A4E0028C862 /* Main.storyboard */,
 				10FE1B2623D34A510028C862 /* Assets.xcassets */,
@@ -220,7 +217,6 @@
 				10FE1B2223D34A4E0028C862 /* ViewController.swift in Sources */,
 				10DA20F223D60179003B8A08 /* TableViewCell.swift in Sources */,
 				10FE1B1E23D34A4E0028C862 /* AppDelegate.swift in Sources */,
-				10FE1B2023D34A4E0028C862 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -350,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
