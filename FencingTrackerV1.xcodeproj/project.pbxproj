@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		069F0ABC23EFA1BE009873C0 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069F0ABB23EFA1BE009873C0 /* RegisterViewController.swift */; };
 		10DA20F023D5EBFB003B8A08 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA20EF23D5EBFB003B8A08 /* SearchViewController.swift */; };
 		10DA20F223D60179003B8A08 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA20F123D60179003B8A08 /* TableViewCell.swift */; };
 		10FE1B1E23D34A4E0028C862 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE1B1D23D34A4E0028C862 /* AppDelegate.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		069F0ABB23EFA1BE009873C0 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		10DA20EF23D5EBFB003B8A08 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		10DA20F123D60179003B8A08 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		10FE1B1A23D34A4E0028C862 /* FencingTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FencingTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +81,7 @@
 				10FE1B3123D35A9B0028C862 /* LoginViewController.swift */,
 				10DA20EF23D5EBFB003B8A08 /* SearchViewController.swift */,
 				10DA20F123D60179003B8A08 /* TableViewCell.swift */,
+				069F0ABB23EFA1BE009873C0 /* RegisterViewController.swift */,
 			);
 			path = FencingTrackerV1;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				10DA20F023D5EBFB003B8A08 /* SearchViewController.swift in Sources */,
 				10FE1B3223D35A9B0028C862 /* LoginViewController.swift in Sources */,
+				069F0ABC23EFA1BE009873C0 /* RegisterViewController.swift in Sources */,
 				10FE1B2223D34A4E0028C862 /* ViewController.swift in Sources */,
 				10DA20F223D60179003B8A08 /* TableViewCell.swift in Sources */,
 				10FE1B1E23D34A4E0028C862 /* AppDelegate.swift in Sources */,
