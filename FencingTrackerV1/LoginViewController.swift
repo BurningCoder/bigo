@@ -17,7 +17,7 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         do {
             let testObject = LCObject(className: "Account")
-            try testObject.set("test", value: "Hello world!")
+            try testObject.set("test", value: "Hello world!22")
             let result = testObject.save()
             if let error = result.error {
                 print("do1234......\(error)")
