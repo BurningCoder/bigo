@@ -18,12 +18,10 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        name = "slime"
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.loginText.text = self.name
     }
     @IBAction func signIn(_ sender: UIButton) {
         guard let name = loginText.text, let password = passwordInput.text else {
